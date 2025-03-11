@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>HOME CLIP UPLOADER</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Upload Clip</h1>
+        <form id="uploadForm">
+            <input type="text" id="clipName" placeholder="Clip Name" required>
+            <input type="text" id="authorName" placeholder="Author Name" required>
+            <textarea id="clipDescription" placeholder="Clip Description" required></textarea>
+            <input type="file" id="clipFile" accept="video/*" required>
+            <button type="submit">Upload</button>
+        </form>
+        <p id="status"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
